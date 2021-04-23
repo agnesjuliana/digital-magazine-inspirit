@@ -1,0 +1,140 @@
+.tg {
+    /* display: inline; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 315px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    border: none;
+    color: black;
+    text-decoration: none;
+}
+
+.tg .desk {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    height: 100px;
+}
+
+.judul {
+    font-size: 16px;
+}
+
+.desc {
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+
+
+/* display picture */
+.tg .it1, .it2 , .it3, 
+.hiburan1, .hiburan2, .hiburan3,
+.ins1, .ins2, .ins3, .ins4, .ins4, .ins5, .ins6,
+.life1, .life2, .life3,
+.news1, .news2, .news3, .news4, .news5, .news6, .news7,
+.ten1, .ten2 {
+    height: 150px;
+    background-size: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.it1 {
+    background-image: url("../img/yongsil.jpeg");
+}
+
+.it2 {
+    background-image: url("../img/AR.jpg");
+}
+
+.it3 {
+    background-image: url("../img/beyondlive.png");
+}
+
+.hiburan1 {
+    background-image: url("../img/cerpenbelva.jpg");
+}
+
+.hiburan2 {
+    background-image: url("../img/hiburan1.png");
+}
+
+.hiburan3 {
+    background-image: url("../img/hiburan3.jpeg");
+}
+
+.ins1 {
+    background-image: url("../img/ins.jpg");
+}
+
+.ins2 {
+    background-image: url("../img/mas ari 1.png");
+}
+
+.ins3 {
+    background-image: url("../img/bel.jpeg");
+}
+
+.ins4 {
+    background-image: url("../img/rama.jpeg");
+}
+
+.ins5 {
+    background-image: url("../img/agnes.jpeg");
+}
+
+.ins6 {
+    background-image: url("../img/er.jpeg");
+}
+
+.life1 {
+    background-image: url("../img/daftar/startup.jpeg");
+}
+
+.life2 {
+    background-image: url("../img/upgradediri.jpg");
+}
+
+.life3 {
+    background-image: url("../img/syukur.jpg");
+}
+
+.news1 {
+    background-image: url("../img/bankmaspionn.jpg");
+}
+
+.news2 {
+    background-image: url("../img/tabungan.jpg");
+}
+
+.news3 {
+    background-image: url("../img/cintaiproduk.png");
+}
+
+.news4 {
+    background-image: url("../img/maximm.jpg");
+}
+
+.news5 {
+    background-image: url("../img/maspionit1.png");
+}
+
+.news6 {
+    background-image: url("../img/Madig.png");
+}
+
+.news7 {
+    background-image: url("../img/astrotech.png");
+}
+
+.ten1 {
+    background-image: url("../img/Smktelkom.jpeg");
+}
+
+.ten2 {
+    background-image: url("../img/jiwaor.jpg");
+}
+
+

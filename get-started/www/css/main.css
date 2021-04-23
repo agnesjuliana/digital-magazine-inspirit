@@ -1,0 +1,256 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body
+{
+    width: 100%;
+    background-size: cover;
+}
+
+.main-background {
+    background-image: url("../img/backgroundmain.png");
+}
+
+main
+{
+    margin-top: 7em;
+    position: static;
+    width: 100%;
+}
+
+/* none text decoration */
+a:link
+{
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* spacing */
+.spacing-margin-top-2 {
+    margin-top: 2vh;
+}
+
+
+/* top nav */
+.top-nav {
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    z-index: 100000;
+    background-color: #FFFFFF;
+    background-position: center;
+    background-size: 250px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.5);
+    align-items: center;
+}
+
+.logo {
+    position: relative;
+    width: 25%;  
+    align-items: center;
+}
+
+.back {
+    padding-left: 10%;
+    width: 50%;
+}
+.bookmark {
+    width: 50%;
+}
+
+
+/* cover display in home */
+.cvr
+{
+    /* display: block; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+}
+
+/* button in home */
+main .tombol
+{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    color: black;
+    margin-top: 31px;
+}
+
+main .tombol .btn
+{
+    font-size: 10px;
+    font-weight: 600;
+    padding: 0.8em 1.5em;
+    background: #FFC422;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+/* home content */
+.home-side-title
+{
+    color: #FFC422;
+    writing-mode: vertical-lr;
+    display: inline;
+    font-size: 18px;
+    transform: rotate(180deg);
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+.home-container
+{
+    margin-top: 20px;
+    size: 50pt;
+}
+
+.home-text
+{
+    font-size: 18px;
+    width: 18em;
+    line-height: 1.2;
+}
+
+.home-text p 
+{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+
+
+/* Daftar isi */
+.daftarisi-container {
+    width: 50;
+    background-color: #FFC422;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.daftarisi-container .pict1, .pict2, .pict3, .pict4, .pict5, .pict6 {
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+    border-radius: 10px 0 0 10px;
+}
+
+.pict1
+{
+    background-image: url("../img/news.png");
+}
+
+.pict2
+{
+    background-image: url("../img/it.png");
+}
+
+.pict3
+{
+    background-image: url("../img/shortcut.png");
+}
+
+.pict4
+{
+    background-image: url("../img/ins.png");
+}
+
+.pict5
+{
+    background-image: url("../img/school.jpg");
+}
+
+.pict6
+{
+    background-image: url("../img/fun.jpg");
+}
+
+.daftarisi-text {
+    color: black;
+    padding-left: 5vw;
+}
+
+.daftarisi-title {
+    font-size: 20px;
+}
+
+.daftarisi-desc
+{
+    font-size: 12px;
+    width: 20em;
+}
+
+
+/* bookmark */
+.umum
+{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.audio {
+    width: 65%;
+    height: 50%;
+    align-items: center;
+    margin: auto;
+    
+}
+
+ 
+/* Blank end */
+.blank
+{
+    width: 100%;
+    height: 15vh;
+}
+ 
+/* footer */
+.footer
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    height: 55;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    background-color: #FFC422;
+    display: flex;
+    overflow: auto;
+    align-items: center;
+    border-radius: 25px 25px 0 0;
+}
+ 
+.footer-link-tab
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    min-width: 25%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+ 
+.footer-icon
+{
+    width: 15%;
+}
